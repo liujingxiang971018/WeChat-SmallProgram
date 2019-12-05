@@ -1,0 +1,4 @@
+<!--pages/inital/initial.wxml-->
+<view class='initialContainer' >
+<button bindgetuserinfo='handleGetUserInfo' style='display:{{isShow?"block":"none"}}' open-type='getUserInfo'>开启小程序之旅</button>
+</view>

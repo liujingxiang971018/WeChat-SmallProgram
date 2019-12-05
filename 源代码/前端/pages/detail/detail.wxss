@@ -1,0 +1,183 @@
+  .book-img{
+    display: flex;
+    flex-direction: row;
+    height: 300rpx;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 5rpx;
+    /* background-color:aliceblue; */
+  }
+
+  .book-image image{
+    height: 270rpx;
+    padding-top: 10rpx;
+    width: 90%;
+    padding-left:5%;
+    border-radius: 20rpx;
+  }
+  .book-info{
+    width: 96%;
+    /* background-color: red; */
+    font-size: 35rpx;
+    margin-left: 2%;
+  }
+  .info{
+    align-items: center;
+  }
+  .bookname{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+  }
+  .author{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+  }
+  .booktype{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+  }
+  .booksize{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+  }
+  .bookisbn{
+    margin-top: 5rpx;
+    font-size: 30rpx;
+  }
+
+  .simpleinfo{
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10rpx;
+    height: 50rpx;
+    /* background-color:  bisque; */
+  }
+  .line{
+    width: 6rpx;
+    height: 50rpx;
+    background-color:  aliceblue;
+  }
+  .grade{
+    display: flex;
+    width: 33%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+  }
+  .reader{
+    display: flex;
+    width: 33%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+  }
+  .like{
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+  }
+  .like image{
+    height: 50rpx;
+    width: 30%;
+  }
+  .border{
+    height: 6rpx;
+    width: 96%;
+    margin-left: 2%;
+    background-color:  lightgrey;
+    margin-top: 20rpx;
+  }
+
+/*下部评论样式  */
+.pro-con{
+	padding: 20rpx;
+	background: #f1f1f1;
+}
+
+.pro-box .info .text .delete {
+  color: #f68135;
+  border-radius: 50rpx;
+  border: 1px solid #f68135;
+  font-size: 28 rpx;
+  width: 150rpx;
+  height: 48rpx;
+  text-align: center;
+}
+
+.pro-box{
+	background: #fff;
+	padding: 20rpx;
+	box-sizing: border-box;
+	border-radius: 10rpx;
+	margin-bottom: 20rpx;
+}
+
+.pro-box .img{
+	display: inline-block;
+	vertical-align: top;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10rpx;
+}
+.pro-box .box{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(98% - 80rpx);
+}
+
+.pro-box .shead{
+	padding-bottom: 20rpx;
+}
+.pro-box .shead .name{
+	font-size: 30rpx;
+	line-height: 40rpx;
+}
+/* .pro-box .shead .grade{
+	font-size: 30rpx;
+	line-height: 40rpx;
+} */
+.pro-box .addr-info{
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px dashed #ccc;
+	margin: 0 -20rpx;
+	margin-bottom: 20rpx;
+	padding-bottom: 20rpx;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+  display: inline-block;
+}
+.pro-box .addr-info .addr-text{
+	font-size: 35rpx;
+	line-height: 40rpx;
+  width:100%;
+}
+.pro-box .info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pro-box .info .text{
+  vertical-align:text-top;
+	font-size: 26rpx;
+}
+.but{
+  border-radius: 20rpx;
+  width: 96%;
+  margin-left:2%; 
+  background-color: #ccc;
+  margin-bottom: 5rpx;
+  margin-top: 5rpx;
+}
+.but button{
+  font-size: 30rpx;
+}
+

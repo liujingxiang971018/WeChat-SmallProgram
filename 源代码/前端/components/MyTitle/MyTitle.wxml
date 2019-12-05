@@ -1,0 +1,15 @@
+<!--components/MyTitle/MyTitle.wxml-->
+<form bindsubmit="submitForm" report-submit="true">
+<view class='search-view'>
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+    {{array[index]}}
+    </view>
+  </picker>
+</view>
+  <input class='input' confirm-type="search" maxlength="30"  value='{{inputvalue}}' bindconfirm='Searchconfirm'  placeholder='{{searchtitle}}' name='searchinput'></input>
+  <button class='search' form-type="submit" hover-class='button-hover'>搜索</button>
+</view>
+</form>
+

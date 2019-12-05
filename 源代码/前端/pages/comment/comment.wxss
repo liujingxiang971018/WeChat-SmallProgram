@@ -1,0 +1,117 @@
+.input_null {
+  color: #c9c9c9;
+}
+
+.release .submit {
+  width: 120rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #6c0;
+  margin: 0 3px;
+  padding: 0;
+}
+.replyinfo2{ 
+  display: flex;
+  justify-content: space-between; /*两端对齐*/
+}
+.release input {
+  width: 550rpx;
+  min-height: 34rpx;
+  max-height: 200rpx; /*最多显示三行*/
+  border-width: 15rpx 20rpx; /*使用padding与预期留白不一致，故使用border*/
+  border-style: solid;
+  border-color: #fff;
+  line-height: 34rpx;
+  font-size: 28rpx;
+  background-color: #fff;
+  border-radius: 4rpx;
+}
+.release {
+  align-items: flex-end; /*底部对齐*/
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0rpx; 
+  width: 100%;
+  padding: 18rpx 0 18rpx 30rpx;
+  background-color: #f7f8f7;
+  font-size: 28rpx;
+  z-index: 999;
+}
+
+
+.pro-con{
+	padding: 20rpx;
+	background: #f1f1f1;
+}
+
+.pro-box .info .text .delete {
+  color: #f68135;
+  border-radius: 50rpx;
+  border: 1px solid #f68135;
+  font-size: 28 rpx;
+  width: 150rpx;
+  height: 48rpx;
+  text-align: center;
+}
+
+.pro-box{
+	background: #fff;
+	padding: 20rpx;
+	box-sizing: border-box;
+	border-radius: 10rpx;
+	margin-bottom: 20rpx;
+}
+
+.pro-box .img{
+	display: inline-block;
+	vertical-align: top;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10rpx;
+}
+.pro-box .box{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(98% - 80rpx);
+}
+
+.pro-box .shead{
+	padding-bottom: 20rpx;
+}
+.pro-box .shead .name{
+	font-size: 30rpx;
+	line-height: 40rpx;
+}
+.pro-box .shead .grade{
+	font-size: 30rpx;
+	line-height: 40rpx;
+}
+.pro-box .addr-info{
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px dashed #ccc;
+	margin: 0 -20rpx;
+	margin-bottom: 20rpx;
+	padding-bottom: 20rpx;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+  display: inline-block;
+}
+.pro-box .addr-info .addr-text{
+	font-size: 35rpx;
+	line-height: 40rpx;
+  width:100%;
+}
+.pro-box .info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pro-box .info .text{
+  vertical-align:text-top;
+	font-size: 26rpx;
+}

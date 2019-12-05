@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class='swiper-text'>
+<text>最新图书</text>
+</view>
+<view class="selection">
+  <swiper  indicator-dots="true" autoplay='true' interval='3000' style='height:500rpx' circular='true'>
+  <block  wx:for="{{imgUrls}}">
+  <swiper-item>
+  <image src="{{item['bimageurl']}}" class="slide-image" mode='widthFix' bindtap='swipclick' data-myid='{{item["id"]}}'></image>
+  </swiper-item>
+  </block>
+  </swiper>
+</view>
+
+<view class='main'>
+<MyTitle></MyTitle>
+</view>
+
+<view class='text'>
+<text>图书排行榜</text>
+</view>
+
+<!--模板信息-->
+<template name="list">
+<navigator url='../detail/detail?id={{id}}'>
+
+<view class='line'></view>
+
+<view class='book-img'>
+<view class='book-image'style="width:40%;height:300rpx">
+<image src='{{bimageurl}}'></image>
+</view>
+
+
+<view class='book-info'style="width:60%;height:300rpx">
+<view class='bookname'><text>书名：{{btitle}}</text></view>
+<view class='author'><text>作者：{{bauthor}}</text></view>
+<view class='booktype'><text>出版日期：{{bpubtime}}</text></view>
+<view class='bookintroduce'><text>豆瓣评分：{{bavescore}}</text></view>
+</view>
+
+</view>
+</navigator>
+</template>
+
+<view class='temp' wx:for="{{array}}" wx:for-index="idx">
+<view class='number'><text>{{idx+1}}</text></view>
+<template is="list" data="{{...item}}"/>
+</view>
+
+<view class='more' bindtap='loadMore' ></view>

@@ -1,0 +1,93 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper-text {
+  padding-left: 20rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.selection{
+  border-bottom: 5px    solid white;
+  width: 98%;
+  margin-left: 1%;
+}
+.slide-image
+{
+  width: 100%;
+  height: 100%;
+}
+.text{
+  height: 40rpx;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 5rpx;
+  font-size: 35rpx;
+  background-color:aliceblue;
+}
+.text text{
+  padding-left: 20rpx;
+  align-items: center;
+  }
+
+.line{
+  height: 5rpx;
+  width: 96%;
+   margin-left: 2%;
+   margin-top: 5rpx;
+  background-color:#ddd;
+}
+
+  .book-img{
+    display: flex;
+    flex-direction: row;
+    height: 300rpx;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 5rpx;
+  }
+
+  .book-image image{
+    height: 270rpx;
+    padding-top: 10rpx;
+    width: 90%;
+    padding-left:5%;
+  }
+  .info{
+    align-items: center;
+  }
+  .bookname{
+    margin-top: 5rpx;
+    font-size: 35rpx;
+  }
+  .author{
+    margin-top: 5rpx;
+    font-size: 35rpx;
+  }
+  .booktype{
+    margin-top: 5rpx;
+    font-size: 35rpx;
+  }
+  .bookintroduce{
+    margin-top: 5rpx;
+    font-size: 35rpx;
+  }
+
+  .temp{
+    display:  flex;
+  }
+  navigator{
+    width: 100%;
+  }
+  .number{
+    display: flex;
+    padding-left: 1%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+

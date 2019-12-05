@@ -1,0 +1,44 @@
+/* components/MyTitle/MyTitle.wxss */
+.search{
+ float: left;
+ width: 130rpx;
+ height: 70rpx;
+ margin-left: 10rpx;
+ background-color: rgb(43, 226, 226);
+ font-size: 28rpx;
+ color: #fff;
+ border: none;
+}
+
+.input{
+ float: left;
+ width: 450rpx;
+ height: 70rpx;
+ font-size: 35rpx;
+ background-color: white;
+}
+.section{
+  float: left;
+  width:50rpx;
+  height: 70rpx;
+  font-size: 25rpx;
+  background-color: whitesmoke
+}
+.picker{
+  margin-left: 10rpx;
+}
+
+.search-view{
+ position: relative;
+ overflow: hidden;
+ height: 70rpx;
+ margin-left: 1%;
+ margin-right: 1%;
+ border-radius: 20rpx;
+ padding: 20rpx 20rpx 25rpx 60rpx;
+ background-color: rgba(102, 255, 204, 0.486);
+}
+
+.button-hover {
+ background-color: rgb(0, 81, 255);
+}

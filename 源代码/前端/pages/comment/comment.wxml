@@ -1,0 +1,37 @@
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" class="list" bindscrolltolower="bindDownLoad" bindscrolltoupper="refresh">
+  <view class="pro-con">
+    <block wx:for="{{mylist}}" wx:key="{{index}}">
+      <view class="pro-box">
+        <view class="head">
+          <image class="img" src="{{item.ruserphoto}}" mode="aspectFit"></image>
+          <view class="box">
+            <view class="shead">
+              <view class="name">{{item.rusername}}
+              </view>
+              <!-- <view class='grade'>评分：{{item.grade}}</view> -->
+            </view>
+          </view>
+        </view>
+        <view class="addr-info">
+          <view class="addr-text">
+            {{item.rreview}}
+          </view>
+        </view>
+        <view class="info">
+          <view class="text">
+            <text decode="true">{{item.rpublishtime}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</scroll-view>
+
+<form bindsubmit="submitForm" report-submit="true">
+  <view class="release">
+    <view class="replyinfo2">
+      <input placeholder-class="input_null" fixed="true" maxlength="-1" show-confirm-bar="true" cursor-spacing="15" auto-height="true" value='{{initialvalue}}' placeholder="请输入评论内容" name="comment"></input>
+      <button form-type="submit" class="submit">发表</button>
+    </view>
+  </view>
+</form>

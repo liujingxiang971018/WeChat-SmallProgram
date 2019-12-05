@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/initial/initial",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/leaderboard/leaderboard",
+    "pages/recommender/recommender",
+    "pages/comment/comment",
+    "pages/likelist/likelist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#66b3ff",
+    "selectColor": "#3cc51f",
+    "boderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/main.png",
+        "selectedIconPath": "image/main1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/recommender/recommender",
+        "iconPath": "image/form.png",
+        "selectedIconPath": "image/form1.png",
+        "text": "图书推荐"
+      },
+      {
+        "pagePath": "pages/likelist/likelist",
+        "iconPath": "image/edit.png",
+        "selectedIconPath": "image/edit1.png",
+        "text": "我喜欢的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
